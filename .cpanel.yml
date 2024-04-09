@@ -4,5 +4,5 @@ deployment:
     # lokasi deploy
     - export DEPLOYPATH=/home/wlknmvdp/public_html/
     # lokasi repository
-    - export DEPLOYPATH=/home/wlknmvdp/repositories/hdev
-    - /bin/cp -Rf . $DEPLOYPATH_old
+    # - export DEPLOYPATH=/home/wlknmvdp/repositories/hdev
+    - /bin/cp -R . $DEPLOYPATH
